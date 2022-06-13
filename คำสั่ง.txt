@@ -1,0 +1,14 @@
+cd C:\Program Files\MongoDB\Server\5.0\bin
+mongod.exe
+mongo.exe
+
+cd D:\Work\WordCloudProject
+python SearchTweet.py
+python WordCloud.py
+
+show dbs
+use quest
+show collections
+db.inventory.find()
+
+
